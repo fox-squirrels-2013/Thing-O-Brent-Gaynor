@@ -1,14 +1,14 @@
-require './app'
+require './app.rb'
 require 'sinatra/activerecord/rake'
 
 namespace :db do
   desc "create the postgres database"
   task :create do
-    `createdb sinatra_skeleton_dev`
+    `createdb apprentice`
   end
 
   desc "drop the postgres database"
   task :drop do
-    `dropdb sinatra_skeleton_dev`
+    `dropdb apprentice`
   end
 end 

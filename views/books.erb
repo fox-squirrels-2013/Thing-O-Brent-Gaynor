@@ -1,0 +1,9 @@
+<h1> Look at all these damn books! <h1>
+
+<% @books.each do |book| %>
+
+  <h1><%= book.title %></h1>
+  <h2>by <%= book.author %><h2>
+  <h3><%= book.description %><h3>
+
+<% end %>

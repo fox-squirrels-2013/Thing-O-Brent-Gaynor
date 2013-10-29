@@ -1,4 +1,5 @@
-class Boot
-
+class Book < ActiveRecord::Base
+  
 end
+
 
